@@ -1,0 +1,43 @@
+.kotak {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: red;
+    text-transform: capitalize;
+    /* letter-spacing: -2px; */
+    font-style: oblique;
+
+    width: 80%;
+    min-width: 200px;
+    height: 200px;
+    border: 1px solid springgreen;
+    margin-bottom: 100px;
+    padding: 10px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.tetap {
+    position: absolute;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    display: block;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    font-size: 4rem;
+    cursor: grab;
+}
+
+a:active {
+    color: red;
+    cursor: grabbing;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './home'
+import Home from './Home'
 import Header from './Header'
 
 class App extends React.Component {
@@ -7,10 +7,8 @@ class App extends React.Component {
     return(
       <div>
           <Header />
-        <p>
-          hello world
-        </p>
-        <Home></Home>
+          <br></br>
+          <Home />
       </div>
     ) 
   }
